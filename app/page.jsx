@@ -18,7 +18,7 @@ const herrVonMuellerhoff = Herr_Von_Muellerhoff({
 export default function Home() {
   const text = "Welcome Tea House"
   return (
-    <div className="h-screen bg-[url('/flower.jpg')] bg-cover bg-[center_-0px] sm:bg-[center_-650px] md:bg-[center_-200px] lg:bg-[center_-200px] xl:bg-[center_-400px] 2xl:bg-[center_-800px] bg-fixed"  >
+    <div   >
 
       <div className="flex flex-col items-center cursor-default p-14 " >
         <div className='hidden sm:flex flex-row items-center my-[60px] text-clip '>
@@ -43,7 +43,7 @@ export default function Home() {
             }}
             className=''
           >
-            <HeartIcon className="h-10 text-darkBrown opacity-80" />
+            
           </motion.div>
         </div>
         <div className='flex flex-row items-center my-[60px] sm:hidden '>
@@ -68,10 +68,9 @@ export default function Home() {
             }}
             className=''
           >
-            <HeartIcon className="h-10 text-darkBrown opacity-80 " />
           </motion.div>
         </div>
-        <div className='fixed bottom-[300px] md:bottom-[230px] ' >
+        <div className='fixed bottom-[400px] md:bottom-[350px] ' >
           <button className="hover-upward-effect custom-rounded-all opacity-80  ">Lets Start</button>
         </div>
       </div>

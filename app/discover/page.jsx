@@ -18,14 +18,14 @@ const herrVonMuellerhoff = Herr_Von_Muellerhoff({
 });
 
 const images = [
-  { src: "/img/11.jpg", alt: "11" },
+  /* { src: "/img/11.jpg", alt: "11" },
   { src: "/img/12.jpg", alt: "12" },
   { src: "/img/13.jpg", alt: "13" },
-  { src: "/img/14.jpg", alt: "14" },
+  { src: "/img/14.jpg", alt: "14" }, */
   { src: "/img/15.jpg", alt: "15" },
   { src: "/img/16.jpg", alt: "16" },
-  { src: "/img/17.jpg", alt: "17" },
   { src: "/img/18.jpg", alt: "18" },
+  { src: "/img/17.jpg", alt: "17" },
 ];
 
 const DiscoverPage = () => {
@@ -62,12 +62,10 @@ const DiscoverPage = () => {
           </p>
         </div>
         {/* Image Container */}
-        <div className="flex items-center justify-center">
+        {/* <div className="flex items-center justify-center">
           <Image src="/menu.jpg" alt="About" width={500} height={500} />
-        </div>
-      </div>
-      {/* Portfolio Container */}
-      <div className="flex flex-wrap cursor-pointer ">
+        </div> */}
+        <div className="grid grid-cols-2 w-full h-auto ">
         {images.map((image, index) => (
           <div key={index} className="portfolio-item ">
             <Image
@@ -90,8 +88,33 @@ const DiscoverPage = () => {
             )}
           </div>
         ))}
-        <div></div>
       </div>
+      </div>
+      {/* Portfolio Container */}
+      {/* <div className="flex flex-wrap cursor-pointer ">
+        {images.map((image, index) => (
+          <div key={index} className="portfolio-item ">
+            <Image
+              src={image.src}
+              alt={image.alt}
+              width={500}
+              height={300}
+              className="image  "
+            />
+            {image.alt % 2 === 0 ? (
+              <div className="overlay">
+                {" "}
+                <FontAwesomeIcon icon={faMugHot} />{" "}
+              </div>
+            ) : (
+              <div className="overlay">
+                {" "}
+                <FontAwesomeIcon icon={faCookieBite} />{" "}
+              </div>
+            )}
+          </div>
+        ))}
+      </div> */}
     </div>
   );
 };
