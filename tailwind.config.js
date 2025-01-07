@@ -8,10 +8,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        cream: '#fcf3e1', // Krem rengi
+        lightGreen: '#b9e0aa', // Açık yeşil
+        softPink: '#f5afb8', // Yumuşak pembe
+        brown:'#745b37',
+        lightBrown: '#d4b19a', // Açık kahverengi
+        darkBrown: '#4a362c', // Koyu kahverengi
+        brown: '#745b37', // Kahverengi
+        gold: '#e8bf67', // Altın sarısı
+        green: '#8ac56b', // Yeşil
+      },
+      fontFamily: {
+        times: ['"Times New Roman"', 'Times', 'serif'],
       },
     },
+   
   },
   plugins: [],
 };
