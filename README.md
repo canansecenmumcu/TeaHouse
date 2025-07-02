@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💻 Tea House – Digital Portfolio Website
 
-## Getting Started
+A modern and elegant developer portfolio built with **Next.js**, **Tailwind CSS**, and **Framer Motion**.  
+Designed to reflect creativity, aesthetics, and motion — just like a warm cup of tea 🍵.
 
-First, run the development server:
+---
+
+## 🖼️ Screenshots
+
+![Homepage](./public/screenshots/home.png)  
+![Discover Page](./public/screenshots/discover.png)  
+![Portfolio Page](./public/screenshots/contact.png)
+
+> 📸 You can replace screenshots in `/public/screenshots` with your own project visuals.
+
+---
+
+## 🌟 Features
+
+- ✨ Animated welcome page with handwritten font
+- 🧠 Smooth biography timeline and skill section
+- 🎬 Seamless transitions between pages using Framer Motion
+- 🖼️ Interactive image overlays with Font Awesome icons
+- 💡 Clean folder structure & scalable component design
+- 📱 Responsive across all devices
+
+---
+
+## 🛠 Tech Stack
+
+- [Next.js](https://nextjs.org/) – React framework for SSR and routing  
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling  
+- [Framer Motion](https://www.framer.com/motion/) – Animations  
+- [Font Awesome](https://fontawesome.com/) – Icon library  
+- [Google Fonts](https://fonts.google.com/) – Herr Von Muellerhoff, Yellowtail, Poppins  
+
+---
+
+## 🚀 Getting Started
+
+Clone and run the project locally:
 
 ```bash
+git clone https://github.com/yourusername/tea-house.git
+cd tea-house
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Make sure you have Node.js and npm installed.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 👩‍💻 Author
 
-## Learn More
+Developed by **Canan Seçen Mumcu**  
+[GitHub](https://github.com/canansecenmumcu) | [Portfolio](https://your-portfolio.vercel.app)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📜 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project is licensed under the [MIT License](LICENSE).
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💬 Final Note
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> "Good design is obvious. Great design is transparent." – Joe Sparano
+
+Let your work speak for itself — one page at a time.
